@@ -12,8 +12,6 @@ A **Java-based Object-Oriented Toll Payment Processing System** designed to simu
 - [Classes](#classes)  
 - [How It Works](#how-it-works)  
 - [Sample Output](#sample-output)  
-- [Getting Started](#getting-started)  
-- [Future Enhancements](#future-enhancements)  
 
 ---
 
