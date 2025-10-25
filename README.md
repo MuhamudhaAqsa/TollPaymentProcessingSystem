@@ -103,24 +103,34 @@ Main driver class that provides a **menu-driven interface** for processing journ
 
 ---
 
-## Sample Output
-
---- Toll Payment System ---
-Process Journey
-Display Toll Details
-Display Vehicle Details
-Find Shortest Route and Calculate Toll
-Exit
-Enter your choice: 1
-Enter vehicle number: TN01AB1234
-Enter vehicle type (Car/Bike/Truck): Car
-Is VIP (true/false): true
-Enter start point: 0
-Enter end point: 2
-Journey completed! Total Toll Paid: ₹144
---- Toll Details ---
-Toll ID: 0
-Vehicles Passed:
-Vehicle: TN01AB1234, Paid: ₹40
-Total Revenue: ₹40
-...
+TollPaymentSystem:
+  menu:
+    - Process Journey
+    - Display Toll Details
+    - Display Vehicle Details
+    - Find Shortest Route and Calculate Toll
+    - Exit
+  user_choice: 1
+  journey:
+    vehicle_number: TN01AB1234
+    vehicle_type: Car
+    is_VIP: true
+    start_point: 0
+    end_point: 2
+    total_toll_paid: 144
+  toll_details:
+    - toll_id: 0
+      vehicles_passed:
+        - vehicle_number: TN01AB1234
+          paid: 40
+      total_revenue: 40
+    - toll_id: 1
+      vehicles_passed:
+        - vehicle_number: TN01AB1234
+          paid: 50
+      total_revenue: 50
+    - toll_id: 2
+      vehicles_passed:
+        - vehicle_number: TN01AB1234
+          paid: 54
+      total_revenue: 54
