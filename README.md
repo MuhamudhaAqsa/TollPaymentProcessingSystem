@@ -1,6 +1,6 @@
 # Toll Payment Processing System
 
-A **Java-based Object-Oriented Toll Payment Processing System** designed to simulate toll collection on a circular highway. This project was implemented as part of **Zoho Round 3** technical assessment.
+A **Java-based Object-Oriented Toll Payment Processing System** designed to simulate toll collection on a circular highway. 
 
 ---
 
