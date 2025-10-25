@@ -103,6 +103,11 @@ Main driver class that provides a **menu-driven interface** for processing journ
 
 ---
 
+## Sample Output
+
+The following demonstrates a sample interaction with the Toll Payment Processing System:
+
+```yaml
 TollPaymentSystem:
   menu:
     - Process Journey
